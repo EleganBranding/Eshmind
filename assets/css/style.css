@@ -993,9 +993,9 @@ img {
 .main-menu .navigation > li > a{
   position:relative;
   display:block;
-  font-size:16px;
+  font-size:18px;
   line-height:30px;
-  font-weight:500;
+  font-weight:700;
   color:#fff;
   text-align:center;
   z-index:1;
