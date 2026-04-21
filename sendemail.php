@@ -34,8 +34,9 @@ $body .= "Subject: " . $userSubject . "\n";
 $body .= "Message:\n" . $message . "\n";
 
 // IMPORTANT: use your domain email if available
-$headers  = "From: Eshmind Website <noreply@eshmind.com>\r\n";
+$headers  = "From: Eshmind Website <contact@eshmind.com>\r\n";
 $headers .= "Reply-To: " . $senderEmail . "\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
 // Send email
